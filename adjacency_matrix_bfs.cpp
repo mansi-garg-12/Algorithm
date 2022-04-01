@@ -3,6 +3,7 @@ using namespace std;
 int m[100][100]={0};
 int visited[10]={0};
 int v;
+int p;
 int arr[100];
 int f=-1,r=-1;
 void addedge(int v1,int v2 ,bool flag=true)
